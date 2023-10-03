@@ -1,0 +1,6 @@
+E:\E-Reverse\Demo\Demo.Data\bin\Debug\Demo.Data.dll
+E:\E-Reverse\Demo\Demo.Data\bin\Debug\Demo.Data.pdb
+E:\E-Reverse\Demo\Demo.Data\obj\Debug\Demo.Data.csproj.AssemblyReference.cache
+E:\E-Reverse\Demo\Demo.Data\obj\Debug\Demo.Data.csproj.CoreCompileInputs.cache
+E:\E-Reverse\Demo\Demo.Data\obj\Debug\Demo.Data.dll
+E:\E-Reverse\Demo\Demo.Data\obj\Debug\Demo.Data.pdb

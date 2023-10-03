@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\E-Reverse\\Demo\\Demo.Service\\Demo.Service.csproj": {}
+  },
+  "projects": {
+    "E:\\E-Reverse\\Demo\\Demo.Service\\Demo.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\E-Reverse\\Demo\\Demo.Service\\Demo.Service.csproj",
+        "projectName": "Demo.Service",
+        "projectPath": "E:\\E-Reverse\\Demo\\Demo.Service\\Demo.Service.csproj",
+        "packagesPath": "C:\\Users\\td_hung\\.nuget\\packages\\",
+        "outputPath": "E:\\E-Reverse\\Demo\\Demo.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\td_hung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

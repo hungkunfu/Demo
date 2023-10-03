@@ -1,0 +1,11 @@
+E:\E-Reverse\Demo\Demo.Service\bin\Debug\net6.0\Demo.Service.deps.json
+E:\E-Reverse\Demo\Demo.Service\bin\Debug\net6.0\Demo.Service.dll
+E:\E-Reverse\Demo\Demo.Service\bin\Debug\net6.0\Demo.Service.pdb
+E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.AssemblyInfoInputs.cache
+E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.AssemblyInfo.cs
+E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.csproj.CoreCompileInputs.cache
+E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.dll
+E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\refint\Demo.Service.dll
+E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.pdb
+E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\ref\Demo.Service.dll
