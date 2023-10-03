@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.Web.Controllers
 {
-    public class EmployeeController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeService _employeeService;
         public EmployeeController(
@@ -12,14 +14,12 @@ namespace Demo.Web.Controllers
         {
             _employeeService = employeeService;
         }
-        public IActionResult Index()
+        [HttpGet]
+        [Route("GetEmployee")]
+        public async Task<IActionResult> GetEmployee()
         {
-            return View("Index");
+            return Ok(await _employeeService.GetAll());
         }
-        //public async Task<IActionResult> List()
-        //{
-        //    var data = await _employeeService.GetAll();
-        //    return PartialView(data);
-        //}
+
     }
 }

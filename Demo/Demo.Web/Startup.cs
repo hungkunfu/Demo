@@ -34,40 +34,49 @@ namespace Demo.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHttpClient();
-            services.AddHttpContextAccessor();
-
-            services.AddMvc().AddSessionStateTempDataProvider();
-          
+            services.AddControllers();
             var connetionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseMySql(connetionString, ServerVersion.AutoDetect(connetionString));
             });
-
+           
             //Api service
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddTransient<IEmployeeService, EmployeeService>();
-             
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddSwaggerGen();
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext context)
         {
-                  
+
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
-            app.UseAuthentication();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Employee API");
+            });
+
             app.UseRouting();
+
+            app.UseAuthentication();
+
             app.UseAuthorization();
-       
+
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Employee}/{action=Index}");
+                endpoints.MapControllers();
             });
+
         }
 
     }

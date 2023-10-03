@@ -26,6 +26,7 @@ namespace Demo.Web.Service
                                orderby ep.Name
                                select new EmployeeVm()
                                {
+                                   Id = ep.Id,
                                    Name = ep.Name,
                                    Address = ep.Address,
                                    Email = ep.Email,

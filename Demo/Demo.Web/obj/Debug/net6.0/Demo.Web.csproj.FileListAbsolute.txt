@@ -146,3 +146,6 @@ E:\Demo\Demo\Demo.Web\obj\Debug\net6.0\refint\Demo.Web.dll
 E:\Demo\Demo\Demo.Web\obj\Debug\net6.0\Demo.Web.pdb
 E:\Demo\Demo\Demo.Web\obj\Debug\net6.0\Demo.Web.genruntimeconfig.cache
 E:\Demo\Demo\Demo.Web\obj\Debug\net6.0\ref\Demo.Web.dll
+E:\Demo\Demo\Demo.Web\bin\Debug\net6.0\launchSettings.json
+E:\Demo\Demo\Demo.Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Demo\Demo\Demo.Web\obj\Debug\net6.0\Demo.Web.MvcApplicationPartsAssemblyInfo.cs
