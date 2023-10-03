@@ -9,3 +9,14 @@ E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.dll
 E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\refint\Demo.Service.dll
 E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.pdb
 E:\E-Reverse\Demo\Demo.Service\obj\Debug\net6.0\ref\Demo.Service.dll
+E:\Demo\Demo\Demo.Service\bin\Debug\net6.0\Demo.Service.deps.json
+E:\Demo\Demo\Demo.Service\bin\Debug\net6.0\Demo.Service.dll
+E:\Demo\Demo\Demo.Service\bin\Debug\net6.0\Demo.Service.pdb
+E:\Demo\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.AssemblyInfoInputs.cache
+E:\Demo\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.AssemblyInfo.cs
+E:\Demo\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.csproj.CoreCompileInputs.cache
+E:\Demo\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.dll
+E:\Demo\Demo\Demo.Service\obj\Debug\net6.0\refint\Demo.Service.dll
+E:\Demo\Demo\Demo.Service\obj\Debug\net6.0\Demo.Service.pdb
+E:\Demo\Demo\Demo.Service\obj\Debug\net6.0\ref\Demo.Service.dll

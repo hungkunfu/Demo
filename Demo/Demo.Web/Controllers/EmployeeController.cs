@@ -14,12 +14,12 @@ namespace Demo.Web.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
-        public async Task<IActionResult> List()
-        {
-            var data = await _employeeService.GetAll();
-            return PartialView(data);
-        }
+        //public async Task<IActionResult> List()
+        //{
+        //    var data = await _employeeService.GetAll();
+        //    return PartialView(data);
+        //}
     }
 }
